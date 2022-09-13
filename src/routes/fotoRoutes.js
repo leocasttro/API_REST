@@ -1,7 +1,7 @@
 import { Router } from 'express';
+import loginRequeried from '../middlewares/loginRequeried';
 
 import fotoController from '../controllers/FotoControllers';
-import loginRequeried from '../middlewares/loginRequeried';
 
 const router = new Router();
 
